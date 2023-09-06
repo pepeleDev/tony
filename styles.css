@@ -1,0 +1,1393 @@
+/* STYLES GENERALES */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+footer
+{
+    margin: 0;
+    background: #F2F2F2; 
+}
+
+a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+h3
+{
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+}
+
+p
+{ 
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+strong
+{
+    padding: 10px;
+    margin: 20px;
+    border-style: groove;
+    border-width: 1px;;
+    border-radius: 50%;
+    color: #0065FC;
+}
+
+span
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+/* HEADER */
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+nav a
+{
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    margin-right: 50px;  
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* DIV PLEINATURE */
+
+.pleinature
+{
+    margin: 20px;
+}
+
+/* DIV RECHERCHE */
+
+.rechercher
+{
+    display: flex; 
+    width: 20%;
+    margin: 20px;
+}
+
+form
+{
+    display: flex;
+}
+
+.rechercher i
+{
+    background: #F2F2F2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+}
+
+.rechercher input
+{ 
+    border-style: ridge;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+    border-color: #F2F2F2;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.rechercher button
+{
+    
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0065FC;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.rechercher .fa-magnifying-glass
+{
+    display: none;
+}
+
+/* SEC FILTRAGE */
+
+#fitratage
+{
+    display: flex;
+    margin: 20px;
+}
+
+/* SEC FILTRAGE ( DIV FILTRES ) */
+
+.filtres
+{
+    display: flex;
+    border-style: solid;
+    border-radius: 45px;
+    border-left: none;
+    padding: 0;
+    margin: 10px;
+    border-color: #F2F2F2;
+}
+
+.filtres:hover
+{
+    background: #001eff;
+}
+
+.filtres i
+{
+    background-color: #DEEBFF;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+    border-radius: 50%; 
+}
+
+.filtres p
+{ 
+    margin: 20px;
+    padding-left: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+.filtres p:hover
+{
+    color: #fff;
+}
+
+/* DIV LOGEMENT */
+
+.logements
+{
+    display: flex;
+    padding: 3px; 
+}
+
+.logements p
+{ 
+    padding-top: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* GRANDE SECTION MARSEIILE */
+
+#marseilleee 
+{
+    background-color: #ffffff; 
+    height: 900px;
+}
+
+/* SEC HEBERGEMENT A MARSEILLE */
+#etoile
+{
+    padding-left: 10px;
+}
+
+#marseille
+{
+    background: #F2F2F2;
+    margin: 20px;
+    border-radius: 10px;
+    width: 60%;
+    padding: 30px;
+    float: left;   
+}
+
+#marseille h3
+{   
+    font-family: 'Raleway', sans-serif;
+}
+
+#marseille .hebergement
+{
+    background: #FFF;
+    padding: 5px;
+    border-radius: 20px;
+    height: 270px;
+    width:  305px;
+}
+
+#marseille .gridee
+{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+      
+}
+
+#marseille .hebergement a
+{
+    text-decoration: none;
+    color: #000;
+}
+
+#marseille .hebergement img
+{
+    height: 160px;
+    width: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#marseille .hebergement h5
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+#marseille .hebergement p
+{
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    padding-left: 10px; 
+}
+
+/* SEC LES PLUS POPULAIRES A MARSEILLE */
+
+#marseillee
+{
+    float: right;
+    background: #F2F2F2;
+    border-radius: 10px;
+    width: 28%;
+    height: 739px; 
+    margin: 20px;
+    padding: 30px;
+}
+
+.pluspopulaires 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#marseillee .pluspopulaires img
+{
+    height: 20px;
+    padding-top: 30px;
+}
+
+#marseillee .gridee
+{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;  
+}
+
+#marseillee .hebergement
+{
+    background: #FFF;
+    padding: 5px;
+    border-radius: 20px;
+    width:  500px;
+    height: 180px;  
+}
+
+#marseillee .hebergement a
+{
+    text-decoration: none;
+    color: #000;
+    display: flex;
+}
+
+#marseillee .hebergement img
+{
+    height: 175px;
+    width: 150px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;  
+}
+
+#marseillee .hebergement p strong
+{
+    font-family: 'Manrope', sans-serif;
+    color: #000;
+    height: 0;
+    padding: 0;
+    border: none;
+    margin: 0; 
+}
+
+#marseillee .hebergement p 
+{
+    padding: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+#marseillee .hebergement p #etoile
+{
+    padding-left: 0;
+}
+
+/* SECTION ACTIVITES */
+
+#ppl
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.griddde
+{
+    display: flex; 
+    float: left;
+    margin: 20px;
+}
+
+.gridddee
+{
+    display: flex; 
+    float: right;
+    margin: 20px;
+}
+
+.activitess1
+{
+    border-radius: 20px;
+    height: 500px; 
+}
+
+.activitess1 img
+{
+    height: 515px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activitess1 h3
+{
+    margin-top: 0;
+    padding: 20px;
+    background: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.activitess2
+{
+    border-radius: 20px;
+    height: 245px;
+    margin-left: 30px; 
+    margin-bottom: 120px; 
+}
+
+.activitess2 img
+{
+    height: 255px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activitess2 h3
+{
+    margin-top: 0;
+    padding: 20px;
+    margin-left: 30px;
+    background: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.activitess3
+{
+    border-radius: 20px;
+    height: 245px;
+    margin-left: 30px; 
+}
+
+.activitess3 img
+{
+    height: 150px;
+    width: 400px;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activitess3 h3
+{
+    margin: 0;
+    padding: 20px;
+    margin-left: 30px;
+    background: #F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.griddde .activitess3 img
+{
+    height: 160px;
+}
+
+.gridddee .activitess2 h3
+{
+    
+    margin: 0;
+    margin-left: 30px;
+}
+
+.gridddee .activitess3 h3
+{
+    
+    margin: 0;
+    margin-left: 30px;
+    
+}
+
+.gridddee .activitess3 img
+{
+    
+    margin-top: 20px;
+    height: 160px;
+    
+}
+
+/* FOOTER */
+
+.fin
+{
+    display: flex;
+    margin: 20px;
+    padding-top: 50px;
+    padding-right: 500px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    justify-content: space-between;   
+}
+
+
+
+/* TABLETTE */
+@media screen and ( min-width: 769px) and ( max-width: 991px) {
+    
+    .rechercher .fa-magnifying-glass
+    {
+        display: none;
+    }
+    
+    /* SEC FILTRAGE */
+
+    #fitratage
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* SEC FILTRAGE ( DIV FILTRES ) */
+
+    .filtres
+    {
+        display: flex;
+        border-style: solid;
+        border-radius: 45px;
+        border-left: none;
+        margin-left: 10px;
+        border-color: #F2F2F2;
+    }
+
+    .filtres:hover
+    {
+        background: #001eff;
+    }
+
+    .filtres i
+    {
+        background-color: #DEEBFF;
+        border-radius: 50%; 
+    }
+
+    .filtres p
+    { 
+        margin: 20px;
+        padding-left: 10px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .filtres p:hover
+    {
+        color: #fff;
+    }
+    
+    /* GRANDE SECTION MARSEIILE */
+
+    #marseilleee 
+    {
+        flex-wrap: wrap;
+        width: auto;
+        height: 2000px;
+    }
+
+    /* SEC HEBERGEMENT A MARSEILLE */
+    #etoile
+    {
+        padding-left: 10px;
+    }
+
+    #marseille
+    {
+        background: #F2F2F2;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 30px;
+        width: auto;
+        justify-content: center;  
+    }
+
+    #marseille h3
+    {   
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #marseille .hebergement
+    {
+        background: #FFF;
+        padding: 5px;
+        border-radius: 20px;
+        height: 270px;
+        width:  305px;
+    }
+
+    #marseille .gridee
+    {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px;
+    }
+
+    #marseille .hebergement a
+    {
+        text-decoration: none;
+        color: #000;
+    }
+
+    #marseille .hebergement img
+    {
+        height: 160px;
+        width: 300px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    #marseille .hebergement h5
+    {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+        padding-left: 10px;
+    }
+
+    #marseille .hebergement p
+    {
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+        margin: 5px;
+        padding-left: 10px; 
+    }
+
+    /* SEC LES PLUS POPULAIRES A MARSEILLE */
+
+    #marseillee
+    {
+        background: #F2F2F2;
+        border-radius: 10px; 
+        margin: 20px;
+        padding: 30px;
+        width: auto;
+    }
+
+    .pluspopulaires 
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #marseillee .pluspopulaires img
+    {
+        height: 20px;
+    }
+
+    #marseillee .gridee
+    {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px;  
+    }
+
+    #marseillee .hebergement
+    {
+        background: #FFF;
+        padding: 5px;
+        border-radius: 20px;
+        width:  500px;
+        height: 180px;  
+    }
+
+    #marseillee .hebergement a
+    {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+    }
+
+    #marseillee .hebergement img
+    {
+        height: 175px;
+        width: 150px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;  
+    }
+
+    #marseillee .hebergement p strong
+    {
+        font-family: 'Manrope', sans-serif;
+        color: #000;
+        height: 0;
+        padding: 0;
+        border: none;
+        margin: 0; 
+    }
+
+    #marseillee .hebergement p 
+    {
+        padding: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    #marseillee .hebergement p #etoile
+    {
+        padding-left: 0;
+    }
+
+    /* SECTION ACTIVITES */
+    
+    #ppl
+    {
+        flex-wrap: wrap;
+        background: #DEEBFF;
+        border-radius: 10px; 
+        margin: 20px;
+        padding: 30px;
+        width: auto;
+    }
+    
+    .griddde
+    {
+        margin: 20px;
+    }
+
+    .gridddee
+    {
+        margin: 20px;
+    }
+
+    .activitess1
+    {
+        border-radius: 20px;
+        height: 500px; 
+    }
+
+    .activitess1 img
+    {
+        height: 515px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .activitess1 h3
+    {
+        margin-top: 0;
+        padding: 10px;
+        background: #F2F2F2;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .activitess2
+    {
+        border-radius: 20px;
+        height: 245px;
+        margin-left: 30px; 
+        margin-bottom: 120px; 
+    }
+
+    .activitess2 img
+    {
+        height: 255px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .activitess2 h3
+    {
+        margin-top: 0;
+        padding: 10px;
+        background: #F2F2F2;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .activitess3
+    {
+        border-radius: 20px;
+        height: 245px;
+        margin-left: 30px; 
+    }
+
+    .activitess3 img
+    {
+        height: 150px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .activitess3 h3
+    {
+        margin-top: 0;
+        padding: 10px;
+        background: #F2F2F2;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    /* FOOTER */
+
+    .fin
+    {
+        display: flex;
+        margin-left: 20px;
+        justify-content: space-between;
+    }
+    
+    .fin2
+    {
+        margin-left: 100px;
+    }
+    
+    .fin3
+    {
+       margin-left: 100px; 
+    } 
+    
+}
+
+
+
+/* PORTABLE */
+
+@media screen and ( max-width: 768px){
+    
+    
+    /* STYLES GENERALES */
+
+    header
+    {
+        width: auto;
+        flex-wrap: wrap;
+    }
+
+    footer
+    {
+        margin: 0;
+        padding: 30px;
+        background: #F2F2F2; 
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: #000;
+    }
+
+    h3
+    {
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+    }
+
+    p
+    { 
+        font-size: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    strong
+    {
+        padding: 10px;
+        margin: 20px;
+        border-style: groove;
+        border-width: 1px;;
+        border-radius: 50%;
+        color: #0065FC;
+    }
+
+    span
+    {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+/* HEADER */
+
+    
+    header img
+    {
+        text-align: center;
+        margin-left: 100px;
+    }
+    
+    nav ul
+    {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+
+    nav a
+    {
+        color: #000;
+        font-family: 'Raleway', sans-serif;
+        justify-content: space-between;
+    }
+
+    nav a:hover
+    {
+        color: #0065FC;
+        font-family: 'Manrope', sans-serif;
+    }
+
+/* DIV PLEINATURE */
+
+    .pleinature
+    {
+        margin: 20px;
+        width: auto;
+    
+    }
+    
+    .pleinature p
+    {
+        font-size: 20px;
+    }
+    
+    .pleinature h3
+    {
+        font-size: 25px;
+    }
+
+/* DIV RECHERCHE */
+
+    .rechercher
+    {
+        width: auto;
+        margin: 20px;
+    }
+
+    form
+    {
+        display: flex;
+    }
+
+    .rechercher .fa-location-dot
+    {
+        background: #F2F2F2;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 20px; 
+    }
+
+    .rechercher input
+    { 
+        border-style: ridge;
+        border-width: 1px;
+        border-left: none;
+        border-right: none;
+        border-color: #F2F2F2;
+        padding: 10px;
+        font-size: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+    }
+
+    .rechercher button
+    {
+        font-weight: bold;
+        background-color: #0065FC;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border: none;
+        padding: 10px;
+        display: none;
+    }
+    
+    .rechercher .fa-magnifying-glass
+    {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding: 20px; 
+        display: inline;
+        width: auto;  
+    }
+    
+    
+    
+
+/* SEC FILTRAGE */
+
+    #fitratage
+    {
+        flex-wrap: wrap;
+        margin: 20px;
+        width: auto;
+    }
+    
+    #fitratage div
+    {
+        display: flex;
+        flex-wrap: wrap; 
+    }
+
+/* SEC FILTRAGE ( DIV FILTRES ) */
+
+    .filtres
+    {
+        display: flex;
+        border-style: solid;
+        border-radius: 45px;
+        border-left: none;
+        padding: 0;
+        margin: 10px;
+        border-color: #F2F2F2;
+        
+    }
+
+    .filtres i
+    {
+        background-color: #DEEBFF;
+        padding: 25px;
+        margin: 0;
+        text-align: center;
+        border-radius: 50%; 
+    }
+
+    .filtres p
+    { 
+        margin: 20px;
+        font-family: 'Manrope', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+/* DIV LOGEMENT */
+
+    .logements
+    {
+        display: flex;
+        padding: 3px; 
+    }
+
+    .logements p
+    { 
+        padding-top: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+/* GRANDE SECTION MARSEIILE */
+
+    #marseilleee 
+    {
+        background-color: #ffffff; 
+        height: 2930px;
+    }
+
+    /* SEC HEBERGEMENT A MARSEILLE */
+    #etoile
+    {
+        padding-left: 10px;
+    }
+
+    #marseille
+    {
+        background: #fff;
+        margin: 20px;
+        border-radius: 10px;
+        padding: 30px;
+        width: auto;
+        position: absolute;
+        top: 1700px;
+        left: 0;
+        z-index: 1;
+    }
+
+    #marseille h3
+    {   
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #marseille .hebergement
+    {
+        background: #fff;
+        padding: 5px;
+        border-radius: 20px;
+        height: 350px;
+        width: 400px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    #marseille .gridee
+    {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px;
+
+    }
+
+    #marseille .hebergement a
+    {
+        text-decoration: none;
+        color: #000;
+    }
+
+    #marseille .hebergement img
+    {
+        height: 255px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+
+    #marseille .hebergement h5
+    {
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 5px;
+        padding-left: 10px;
+    }
+
+    #marseille .hebergement p
+    {
+        font-family: 'Manrope', sans-serif;
+        font-size: 20px;
+        margin: 5px;
+        padding-left: 10px; 
+    }
+
+    /* SEC LES PLUS POPULAIRES A MARSEILLE */
+
+    #marseillee
+    {
+        background: #F2F2F2;
+        border-radius: 10px;
+        width: 82%;
+        padding: 30px;
+        position: absolute;
+        top: 800px;
+        left: 0;
+        z-index: 2;
+    }
+
+    .pluspopulaires 
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #marseillee .pluspopulaires img
+    {
+        height: 20px;
+        padding-top: 30px;
+    }
+
+    #marseillee .gridee
+    {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 20px;  
+    }
+
+    #marseillee .hebergement
+    {
+        background: #FFF;
+        padding: 5px;
+        border-radius: 20px;
+        width:  500px;
+        height: 180px;  
+    }
+
+    #marseillee .hebergement a
+    {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+    }
+
+    #marseillee .hebergement img
+    {
+        height: 175px;
+        width: 150px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;  
+    }
+
+    #marseillee .hebergement p strong
+    {
+        font-family: 'Manrope', sans-serif;
+        color: #000;
+        height: 0;
+        padding: 0;
+        border: none;
+        margin: 0; 
+    }
+
+    #marseillee .hebergement p 
+    {
+        padding: 20px;
+        font-family: 'Manrope', sans-serif;
+    }
+
+    #marseillee .hebergement p #etoile
+    {
+        padding-left: 0;
+    }
+
+/* SECTION ACTIVITES */
+
+    #ppl
+    {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        margin: 20px;
+        
+    }
+
+    .griddde
+    {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    .griddde div
+    {
+        margin: 10px;
+    }
+    
+    .gridddee
+    {
+        flex-wrap: wrap;
+        display: flex;
+        height: auto;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    .gridddee div
+    {
+        margin: 10px;
+    }
+
+
+    .activitess1
+    {
+        border-radius: 20px;
+        
+    }
+
+    .activitess1 img
+    {
+        height: 255px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin: 0;
+    }
+
+    .activitess1 h3
+    {
+        margin: 0;
+        padding: 20px;
+        background: #F2F2F2;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .activitess2
+    {
+        border-radius: 20px;
+        margin: 0;
+      
+    }
+
+    .activitess2 img
+    {
+        height: 255px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .activitess2 h3
+    {
+        padding: 20px;
+        background: #F2F2F2;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .activitess3
+    {
+        border-radius: 20px; 
+        margin: 0;
+    }
+
+    .activitess3 img
+    {
+        height: 255px;
+        width: 400px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .activitess3 h3
+    {
+        padding: 20px;
+        background: #F2F2F2;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    
+    .griddde .activitess3 img
+    {
+         height: 255px;
+    }
+    
+    .griddde .activitess3 h3
+    {
+         margin-left: 0;
+    }
+    
+    .griddde .activitess2 h3
+    {
+         margin-left: 0;
+    }
+    /*
+    .gridddee .activitess3 h3
+    {
+         margin-left: 30px;
+    }
+    
+    .gridddee .activitess2 h3
+    {
+         margin-left: 30px;
+    }
+    <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #005eff;"></i>
+    */
+
+/* FOOTER */
+
+    .fin
+    {
+        display: inline;
+    }
+    
+    .fin1
+    {
+        margin-bottom: 40px;
+    }
+    
+    .fin2
+    {
+       margin-bottom: 40px;
+    }
+    
+    .fin3
+    {
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
